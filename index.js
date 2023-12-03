@@ -2,7 +2,7 @@ const express = require('express');
 const punycode = require('punycode');
 const app = express();
 const mongoose = require('mongoose');
-const { createProduct, getProduct, deleteProduct, updateProduct } = require("./ProductsOperation")
+const { createProduct, getProduct, deleteProduct, updateProduct } = require("./src/ProductsOperation")
 app.use(express.json());
 
 mongoose.connect('mongodb+srv://asad:1410@cluster0.dviirxh.mongodb.net/').then(async () => { // for Global server
