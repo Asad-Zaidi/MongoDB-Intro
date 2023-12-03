@@ -1,1 +1,1 @@
-# INTRO-to-MONGO-DB
+# INTRO-to-MONGODB
